@@ -1,6 +1,6 @@
 // Desc: This is the main app file
 // ----------------------------------------------------------------------------
-import Quiz from "./assets/Quiz/Quiz";
+import Quiz from "./Components/Quiz/Quiz";
 
 export const App = () => {
   return (

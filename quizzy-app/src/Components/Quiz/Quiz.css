@@ -65,6 +65,7 @@ button {
   backface-visibility: hidden;
   border: 2px solid darkslategrey;
   border-radius: 3rem;
+  margin-bottom: 1rem;
 }
 button {
   transition: background-color 0.3s ease-in-out;
