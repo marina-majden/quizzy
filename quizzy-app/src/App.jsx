@@ -1,6 +1,12 @@
-import React from "react";
+// Desc: This is the main app file
+// ----------------------------------------------------------------------------
+import Quiz from "./assets/Quiz/Quiz";
 
 export const App = () => {
-  return <div>App</div>;
+  return (
+    <>
+      <Quiz />
+    </>
+  );
 };
 export default App;
