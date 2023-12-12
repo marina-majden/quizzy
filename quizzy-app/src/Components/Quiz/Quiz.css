@@ -15,7 +15,7 @@ h2 {
   text-shadow: 1px 1px 1px lightgray;
 }
 ul li {
-  list-style-type: lower-latin;
+  list-style-type: none;
   list-style-position: inside;
   font-size: 1.5rem;
   line-height: 1.5;
@@ -76,6 +76,13 @@ button:hover {
   color: darkslategrey;
 }
 
-img {
-  max-width: 30vw;
+.correct {
+  background-color: rgba(46, 139, 86, 0.878);
+  color: white;
+  border: 2px solid green;
+}
+.wrong {
+  background-color: rgba(139, 0, 0, 0.579);
+  color: white;
+  border: 2px solid darkred;
 }
