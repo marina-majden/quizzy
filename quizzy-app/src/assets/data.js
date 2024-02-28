@@ -1,14 +1,5 @@
 export const data = [
   {
-    question:
-      "A flashing red traffic light signifies that a driver should do what?",
-    optionA: "stop",
-    optionB: "speed up",
-    optionC: "proceed with caution",
-    optionD: "honk the horn",
-    answer: 1,
-  },
-  {
     question: "A knish is traditionally stuffed with what filling?",
     optionA: "potato",
     optionB: "creamed corn",

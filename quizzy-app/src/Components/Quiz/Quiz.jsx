@@ -100,16 +100,16 @@ const Quiz = () => {
           </ul>
           <button onClick={next}>Next</button>
           <div className="index">
-            {index + 1} out of {data.length} questions
+            ({index + 1} out of {data.length} questions)
           </div>
         </>
       )}
       {result ? (
         <>
           <h2>
-            You scored {score} out of {data.length}.
+            You scored {score} out of {data.length}!
           </h2>
-          <button onClick={reset}>Reset</button>
+          <button onClick={reset}>Try again!</button>
         </>
       ) : (
         <></>
